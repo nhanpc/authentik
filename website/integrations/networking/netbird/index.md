@@ -99,7 +99,7 @@ NETBIRD_MGMT_IDP="authentik"
 NETBIRD_IDP_MGMT_CLIENT_ID="<Your Client ID>"
 NETBIRD_IDP_MGMT_EXTRA_USERNAME="Netbird"
 NETBIRD_IDP_MGMT_EXTRA_PASSWORD="<Your Service Account password>"
-NETBIRD_AUTH_REDIRECT_URI="/auth"
+NETBIRD_AUTH_REDIRECT_URI="/peers"
 NETBIRD_AUTH_SILENT_REDIRECT_URI="/silent-auth"
 
 # needs disabling due to issue with IdP. Learn more at https://github.com/netbirdio/netbird/issues/3654
